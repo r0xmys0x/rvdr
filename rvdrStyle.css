@@ -2,7 +2,7 @@ body{
 //  background-image:url(img/bg1.png);
 //  background-size: auto auto;
 //  background-position: top;
-background: url(img/bg2.png) no-repeat center top fixed;
+background: url(img/bg2.png) center top fixed;
 background-size: cover; 
 min-height: 100%;
 //background-size: cover;

@@ -1,0 +1,117 @@
+body{
+//  background-image:url(img/bg1.png);
+//  background-size: auto auto;
+//  background-position: top;
+background: url(img/bg1.png) no-repeat center top fixed;
+background-size: cover;
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+margin:0;
+padding:0;
+text-align: center;
+}
+h1{
+  color: #FFF;
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 3vh;
+  margin:0;
+  padding:0;
+}
+h2{
+  color: #DDD;
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.5vh;
+  margin:0;
+  padding:0;
+}
+p{
+  color: #333;
+  font-family: canada-type-gibson, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 1.25vh;
+  margin:0;
+  padding:0;
+}
+.topbar{
+  width:100%;
+  background-color: #000;
+  height:5px;
+}
+.rvdrLogo{
+background: url(img/logo.png) no-repeat center;
+background-size:contain;
+width: 50%;
+height: 50%;
+margin: 5% auto;
+}
+.txt{
+margin: 0 auto;
+}
+.buttons{
+  margin-top: 2vh;
+}
+.buttons img{
+  margin-right:3vh;
+  margin-left:3vh;
+  width: 4vh;
+}
+.footer
+{
+  position:absolute;
+      width:100%;
+      bottom:0px;
+}
+/* FADES, EFFECTS, ANIMS */
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.lateFade1{
+  opacity:0;
+-webkit-animation: fade-in 3.5s 0.5s forwards;
+animation: fade-in 3.5s 0.5s forwards;
+}
+.lateFade2{
+  opacity:0;
+-webkit-animation: fade-in .5s 1.5s forwards;
+animation: fade-in .5s 1.5s forwards;
+}
+.lateFade3{
+  opacity:0;
+-webkit-animation: fade-in .5s 1.7s forwards;
+animation: fade-in .5s 1.7s forwards;
+}
+.lateFade4{
+  opacity:0;
+-webkit-animation: fade-in 1.5s 2s forwards;
+animation: fade-in 1.5s 2s forwards;
+}
+.lateFade5{
+  opacity:0;
+-webkit-animation: fade-in .5s 2.25s forwards;
+animation: fade-in .5s 2.25s forwards;
+}
+.lateFade6{
+  opacity:0;
+-webkit-animation: fade-in 2.5s 3s forwards;
+animation: fade-in 2.5s 3s forwards;
+}
+.shake{
+    animation: .8s shake infinite alternate;
+}
+@keyframes shake {
+  0% { transform: skewX(-5deg); }
+  5% { transform: skewX(5deg); }
+  10% { transform: skewX(-5deg); }
+  15% { transform: skewX(5deg); }
+  20% { transform: skewX(0deg); }
+  100% { transform: skewX(0deg); }
+}
